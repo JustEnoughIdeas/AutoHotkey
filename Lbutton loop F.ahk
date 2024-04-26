@@ -1,4 +1,4 @@
-﻿#Persistent
+#Persistent
 loopActive := false
 return
 
@@ -28,4 +28,7 @@ G::
 return
 
 Home:: Suspend, Toggle
+    loopActive := false
+
 Delete:: ExitApp 
+
