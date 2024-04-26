@@ -11,9 +11,12 @@ Delete - Close App;
 
 ----------------------------------------------------------------------
 
+
 If you want to change control then you can change " F:: " to any button you want to press to activate script, for example I want to active script on button "A" not on "F" so I change " F:: " to " A:: ", same with " G:: " and " Home:: ".
 
 Also, If you want to not click but to press button for example "A" just simply replace Send, {LButton}{Delay 0.01} to Send, { [Your key you like to press] }: Send, {A}
+
+------------------------------------------------------------------------
 
 If you don't know want you're doing, I recommend to always have a reserve copy of the original script to recover it when something gone wrong.
 
